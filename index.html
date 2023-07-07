@@ -1,15 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <title>Login</title>
+  <link href="/loginpage/style.css" rel="stylesheet"/>
 </head>
 <body>
-    <h1>DR BALA CLINIC</h1>
-    <p>1.<i>paracetamol</i>---<b>1 dose per day</b>
-    <hr />
-<strong>CONSULT YOUR DOCTOR</strong></p>
-
+  <form action="/loginpage/logins.html" method="post">
+    <h1>Login</h1>
+    <div class="textBox">
+      <input type="text" placeholder="Username">
+    </div>
+    <div class="textBox">
+      <input type="password" placeholder="Password">
+    </div>
+    <input type="submit" value="Login" class="loginbtn">
+    <div class="signup">
+      Don't have an account?
+    </br>
+      <a href="/loginpage/signup.html">Sign Up</a>
+    </div>
+  </form>
 </body>
 </html>
